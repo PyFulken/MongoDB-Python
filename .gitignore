@@ -1,3 +1,6 @@
+venv/
+info/
+.idea/
 # Object file
 *.o
 
