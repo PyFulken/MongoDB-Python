@@ -11,9 +11,11 @@ def connection_set(local, database):
     MONGO_ATLAS: URL to Atlas hosted Mongo instance.
     MONGO_PASS: Password to the Atlas user.
     MONGO_DATABASE: Database to connect to.
-    :param local: Boolean: True to connect to local Mongo instance.
-    :param database: String: The database to connect to.
-    :return: A fully connected database connection instance.
+    Parameters:
+     local (boolean): True to connect to local Mongo instance.
+     database (string): The database to connect to.
+    Returns:
+         database: A fully connected database connection instance.
     """
     # Set Environmental Variables
     environ_set()

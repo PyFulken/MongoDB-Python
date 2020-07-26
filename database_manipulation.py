@@ -11,4 +11,6 @@ python_document = create_documents(10)
 # --------WARNING--------
 # The name between db. and .insert is the collection name to insert into.
 # If it doesn't exist, it will be created, misplacing the documents.
-db.python_collection_2.insert_many(python_document)
+#db.python_collection_2.insert_many(python_document)
+
+# Search queries:

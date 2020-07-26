@@ -5,8 +5,12 @@ from random import randint
 def create_documents(amount):
     """
     Create a list with a variable amount of documents with random information.
-    :param amount: Int: The amount of documents to be generated.
-    :return: An array of documents.
+
+    Parameters:
+     amount (int): The amount of documents to be generated.
+
+    Returns:
+         list: An array of documents.
     """
     # Create the document:
     python_document = []
