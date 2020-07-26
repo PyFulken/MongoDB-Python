@@ -20,6 +20,6 @@ db = connection_set(False, "python-database")
 python_collection = db["python_collection"]
 # For deeper and finer searches a query must be passed as the first argument in find(). Queries are dictionaries.
 query = {"_id": {"$lte": 10}}
-received_document = python_collection.find(query)
+received_document = python_collection.find(query).sort("Date")
 for i in received_document:
     print(i)
